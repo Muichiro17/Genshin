@@ -12,5 +12,56 @@
 
 h2{
     font-family: "San Francisco Regular";
+    padding-right: 25px;
+}
 
+
+
+.loga{
+    width: 25px;
+    height: 30px;
+    padding-left: 25px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: white;
+    top:0;
+    opacity: 0.97;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "San Francisco Regular";
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+A:hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;    
+    padding-top: 50px;
+    width: 100%;
+    height: 25px;
+    color:rgb(160, 160, 160);
+
+}
+
+.footer text{
+    color: gray;
 }
