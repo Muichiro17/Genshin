@@ -22,6 +22,7 @@ h2{
     height: 30px;
     padding-left: 25px;
 }
+
 header{
     display: flex;
     top:0;
@@ -39,7 +40,6 @@ nav{
     display: flex;
     justify-content: space-between;
     font-family: "San Francisco Regular";
-
 }
 
 a{
@@ -59,6 +59,7 @@ footer{
     width: 100%;
     height: 25px;
     color:rgb(160, 160, 160);
+    border: 1px;
 
 }
 
@@ -93,3 +94,20 @@ footer{
 .The_newest_product{
     width: 350px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "San Francisco Regular";
+}
+
+.Date{
+    text-align: center;
+}
+
+.price{
+    text-align: center;
+}
+
