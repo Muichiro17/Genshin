@@ -97,9 +97,8 @@ footer{
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
     font-family: "San Francisco Regular";
 }
 
@@ -111,3 +110,23 @@ main{
     text-align: center;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;    
+}
+
+.red:hover{
+    text-decoration: none;
+}
+
+.bed{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: "San Francisco Regular";
+}
