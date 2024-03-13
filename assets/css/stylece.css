@@ -130,3 +130,8 @@ main{
     justify-content: left;
     font-family: "San Francisco Regular";
 }
+
+.milk{
+    display: flex;
+    justify-content: center;
+}
