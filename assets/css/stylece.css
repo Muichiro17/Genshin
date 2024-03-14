@@ -113,25 +113,28 @@ main{
 .left{
     display: flex;
     flex-direction: column;
+    padding: 0 0 0 50px;
 }
 
 .right{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    padding: 0 50px 0 0;  
 }
 
 .red:hover{
     text-decoration: none;
 }
 
-.bed{
+.specifications{
     display: flex;
     flex-direction: column;
     justify-content: left;
     font-family: "San Francisco Regular";
 }
 
-.milk{
+.hading{
     display: flex;
-    justify-content: center;
+    font-family: "San Francisco Regular";
+    justify-content: left;
 }
