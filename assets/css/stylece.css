@@ -92,7 +92,11 @@ footer{
 }
 
 .The_newest_product{
-    width: 350px;
+    height: 300px;
+}
+
+.The_newest_product16{
+    width: 450px;
 }
 
 main{
@@ -111,9 +115,10 @@ main{
 }
 
 .left{
-    display: flex;
+    display: flex;   
     flex-direction: column;
     padding: 0 0 0 50px;
+
 }
 
 .right{
@@ -131,6 +136,7 @@ main{
     flex-direction: column;
     justify-content: left;
     font-family: "San Francisco Regular";
+    font-size: 18px;
 }
 
 .hading{
@@ -138,3 +144,4 @@ main{
     font-family: "San Francisco Regular";
     justify-content: left;
 }
+
