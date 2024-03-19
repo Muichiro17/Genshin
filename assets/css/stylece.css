@@ -97,6 +97,7 @@ footer{
 
 .The_newest_product16{
     width: 450px;
+    font-size: 50px;
 }
 
 main{
@@ -136,7 +137,7 @@ main{
     flex-direction: column;
     justify-content: left;
     font-family: "San Francisco Regular";
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .hading{
@@ -145,3 +146,7 @@ main{
     justify-content: left;
 }
 
+.inf1{
+    font-size: 18px;
+    justify-content: center;
+}
